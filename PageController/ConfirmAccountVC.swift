@@ -82,4 +82,8 @@ class ConfirmAccountVC: UIViewController,UITextFieldDelegate{
         }
     }
     
+    @IBAction func btnSkip(_ sender: Any) {
+        let vc  = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "StackVC") as! StackVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
