@@ -1,0 +1,16 @@
+PODS:
+  - CHIPageControl/Chimayo (0.1.8)
+
+DEPENDENCIES:
+  - CHIPageControl/Chimayo
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CHIPageControl
+
+SPEC CHECKSUMS:
+  CHIPageControl: 76b35c8309d8dd155e869c109cc6ffc0aaa465ff
+
+PODFILE CHECKSUM: 1f3c221cd7369fdf285f76d1ff1d18ab2b158fab
+
+COCOAPODS: 1.7.1
