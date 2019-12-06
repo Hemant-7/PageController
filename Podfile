@@ -6,6 +6,10 @@ target 'PageController' do
   use_frameworks!
 
   pod 'CHIPageControl/Chimayo'
+  pod 'MaterialComponents/ActivityIndicator'
+  pod 'MaterialComponents/ActivityIndicator+ColorThemer'
+  pod 'NVActivityIndicatorView'
+  pod 'NVActivityIndicatorView/AppExtension'
   
 # Pods for PageController
 

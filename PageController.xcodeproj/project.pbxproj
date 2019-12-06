@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		42776B112BD2DE995DE815C7 /* Pods_PageController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A13AEFEEC085667B058154E /* Pods_PageController.framework */; };
 		66CCDC0BF5366E965776AB43 /* Pods_PageControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926959A559B8D67B051A4A89 /* Pods_PageControllerUITests.framework */; };
+		B5874297239A1BE800F26F38 /* ActivityIndicatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5874296239A1BE800F26F38 /* ActivityIndicatorVC.swift */; };
 		B5AD7CFA2399351700961D82 /* StackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7CF92399351700961D82 /* StackVC.swift */; };
 		B5B068C7232A330E0059A8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B068C6232A330E0059A8A1 /* AppDelegate.swift */; };
 		B5B068C9232A330E0059A8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B068C8232A330E0059A8A1 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		6B5D410BCDD062B61589155A /* Pods-PageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageController.debug.xcconfig"; path = "Target Support Files/Pods-PageController/Pods-PageController.debug.xcconfig"; sourceTree = "<group>"; };
 		926959A559B8D67B051A4A89 /* Pods_PageControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43C6B58C464F47F9A79C103 /* Pods-PageControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-PageControllerUITests/Pods-PageControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5874296239A1BE800F26F38 /* ActivityIndicatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVC.swift; sourceTree = "<group>"; };
 		B5AD7CF92399351700961D82 /* StackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackVC.swift; sourceTree = "<group>"; };
 		B5B068C3232A330E0059A8A1 /* PageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B068C6232A330E0059A8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				B5B068CF232A33110059A8A1 /* LaunchScreen.storyboard */,
 				B5B068D2232A33110059A8A1 /* Info.plist */,
 				B5B068F4232A4C920059A8A1 /* Slide.swift */,
+				B5874296239A1BE800F26F38 /* ActivityIndicatorVC.swift */,
 			);
 			path = PageController;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				B5B068C9232A330E0059A8A1 /* ViewController.swift in Sources */,
 				B5B068C7232A330E0059A8A1 /* AppDelegate.swift in Sources */,
 				B5AD7CFA2399351700961D82 /* StackVC.swift in Sources */,
+				B5874297239A1BE800F26F38 /* ActivityIndicatorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

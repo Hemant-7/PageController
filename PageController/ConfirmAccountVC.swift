@@ -59,6 +59,9 @@ class ConfirmAccountVC: UIViewController,UITextFieldDelegate{
     }
     
     @IBAction func btnResendEmailClick(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ActivityIndicatorVC") as! ActivityIndicatorVC
+        self.navigationController?.pushViewController(vc
+            , animated: true)
     }
     
     @IBAction func btnChangeMobileClick(_ sender: Any) {
