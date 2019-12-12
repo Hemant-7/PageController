@@ -20,6 +20,19 @@
 		B5B068E7232A33110059A8A1 /* PageControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B068E6232A33110059A8A1 /* PageControllerUITests.swift */; };
 		B5B068F5232A4C920059A8A1 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B068F4232A4C920059A8A1 /* Slide.swift */; };
 		B5B068F7232A4D370059A8A1 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B068F6232A4D370059A8A1 /* Slide.xib */; };
+		B5CCF13523A2137A00B143A7 /* ConnectRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCF13423A2137A00B143A7 /* ConnectRequestVC.swift */; };
+		B5CCF13723A23F9D00B143A7 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCF13623A23F9D00B143A7 /* FeedbackVC.swift */; };
+		B5CCF13923A2669600B143A7 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCF13823A2669600B143A7 /* ContactUsVC.swift */; };
+		B5CCF13B23A275B800B143A7 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CCF13A23A275B800B143A7 /* HelpVC.swift */; };
+		B5CD17AF23A0C82E000A5AEB /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17AE23A0C82E000A5AEB /* ChangePasswordVC.swift */; };
+		B5CD17B123A0C85E000A5AEB /* ChangeLoginIdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17B023A0C85E000A5AEB /* ChangeLoginIdVC.swift */; };
+		B5CD17B323A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17B223A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift */; };
+		B5CD17B523A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17B423A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift */; };
+		B5CD17B823A0F90D000A5AEB /* CellDropDownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17B623A0F90D000A5AEB /* CellDropDownVC.swift */; };
+		B5CD17B923A0F90D000A5AEB /* CellDropDownVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5CD17B723A0F90D000A5AEB /* CellDropDownVC.xib */; };
+		B5CD17BB23A0F979000A5AEB /* DropDownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17BA23A0F979000A5AEB /* DropDownVC.swift */; };
+		B5CD17BD23A11021000A5AEB /* NameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17BC23A11021000A5AEB /* NameList.swift */; };
+		B5CD17C123A12149000A5AEB /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD17C023A12149000A5AEB /* MyAccountVC.swift */; };
 		B5DE9D0A23977D75004168BC /* ConfirmAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0923977D75004168BC /* ConfirmAccountVC.swift */; };
 		B5DE9D0C2397AF5F004168BC /* ChangeEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0B2397AF5F004168BC /* ChangeEmailVC.swift */; };
 		B5DE9D0E2397D17A004168BC /* ChangeMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0D2397D17A004168BC /* ChangeMobileVC.swift */; };
@@ -69,6 +82,19 @@
 		B5B068E8232A33110059A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B068F4232A4C920059A8A1 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		B5B068F6232A4D370059A8A1 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		B5CCF13423A2137A00B143A7 /* ConnectRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectRequestVC.swift; sourceTree = "<group>"; };
+		B5CCF13623A23F9D00B143A7 /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		B5CCF13823A2669600B143A7 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		B5CCF13A23A275B800B143A7 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		B5CD17AE23A0C82E000A5AEB /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		B5CD17B023A0C85E000A5AEB /* ChangeLoginIdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLoginIdVC.swift; sourceTree = "<group>"; };
+		B5CD17B223A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRegisteredMobileVC.swift; sourceTree = "<group>"; };
+		B5CD17B423A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRegisteredEmailVC.swift; sourceTree = "<group>"; };
+		B5CD17B623A0F90D000A5AEB /* CellDropDownVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDropDownVC.swift; sourceTree = "<group>"; };
+		B5CD17B723A0F90D000A5AEB /* CellDropDownVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDropDownVC.xib; sourceTree = "<group>"; };
+		B5CD17BA23A0F979000A5AEB /* DropDownVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownVC.swift; sourceTree = "<group>"; };
+		B5CD17BC23A11021000A5AEB /* NameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameList.swift; sourceTree = "<group>"; };
+		B5CD17C023A12149000A5AEB /* MyAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
 		B5DE9D0923977D75004168BC /* ConfirmAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAccountVC.swift; sourceTree = "<group>"; };
 		B5DE9D0B2397AF5F004168BC /* ChangeEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailVC.swift; sourceTree = "<group>"; };
 		B5DE9D0D2397D17A004168BC /* ChangeMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMobileVC.swift; sourceTree = "<group>"; };
@@ -154,6 +180,19 @@
 				B5B068D2232A33110059A8A1 /* Info.plist */,
 				B5B068F4232A4C920059A8A1 /* Slide.swift */,
 				B5874296239A1BE800F26F38 /* ActivityIndicatorVC.swift */,
+				B5CD17AE23A0C82E000A5AEB /* ChangePasswordVC.swift */,
+				B5CD17B023A0C85E000A5AEB /* ChangeLoginIdVC.swift */,
+				B5CD17B223A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift */,
+				B5CD17B423A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift */,
+				B5CD17B623A0F90D000A5AEB /* CellDropDownVC.swift */,
+				B5CD17BA23A0F979000A5AEB /* DropDownVC.swift */,
+				B5CD17BC23A11021000A5AEB /* NameList.swift */,
+				B5CD17B723A0F90D000A5AEB /* CellDropDownVC.xib */,
+				B5CD17C023A12149000A5AEB /* MyAccountVC.swift */,
+				B5CCF13423A2137A00B143A7 /* ConnectRequestVC.swift */,
+				B5CCF13623A23F9D00B143A7 /* FeedbackVC.swift */,
+				B5CCF13823A2669600B143A7 /* ContactUsVC.swift */,
+				B5CCF13A23A275B800B143A7 /* HelpVC.swift */,
 			);
 			path = PageController;
 			sourceTree = "<group>";
@@ -298,6 +337,7 @@
 				B5B068CE232A33110059A8A1 /* Assets.xcassets in Resources */,
 				B5B068CC232A330E0059A8A1 /* Main.storyboard in Resources */,
 				B5B068F7232A4D370059A8A1 /* Slide.xib in Resources */,
+				B5CD17B923A0F90D000A5AEB /* CellDropDownVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,13 +449,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DE9D0E2397D17A004168BC /* ChangeMobileVC.swift in Sources */,
+				B5CCF13B23A275B800B143A7 /* HelpVC.swift in Sources */,
 				B5B068F5232A4C920059A8A1 /* Slide.swift in Sources */,
+				B5CCF13923A2669600B143A7 /* ContactUsVC.swift in Sources */,
 				B5DE9D0A23977D75004168BC /* ConfirmAccountVC.swift in Sources */,
+				B5CD17B323A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift in Sources */,
+				B5CD17B123A0C85E000A5AEB /* ChangeLoginIdVC.swift in Sources */,
+				B5CCF13723A23F9D00B143A7 /* FeedbackVC.swift in Sources */,
+				B5CD17BD23A11021000A5AEB /* NameList.swift in Sources */,
+				B5CD17B523A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift in Sources */,
 				B5DE9D0C2397AF5F004168BC /* ChangeEmailVC.swift in Sources */,
+				B5CD17C123A12149000A5AEB /* MyAccountVC.swift in Sources */,
+				B5CCF13523A2137A00B143A7 /* ConnectRequestVC.swift in Sources */,
 				B5B068C9232A330E0059A8A1 /* ViewController.swift in Sources */,
+				B5CD17B823A0F90D000A5AEB /* CellDropDownVC.swift in Sources */,
+				B5CD17BB23A0F979000A5AEB /* DropDownVC.swift in Sources */,
 				B5B068C7232A330E0059A8A1 /* AppDelegate.swift in Sources */,
 				B5AD7CFA2399351700961D82 /* StackVC.swift in Sources */,
 				B5874297239A1BE800F26F38 /* ActivityIndicatorVC.swift in Sources */,
+				B5CD17AF23A0C82E000A5AEB /* ChangePasswordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

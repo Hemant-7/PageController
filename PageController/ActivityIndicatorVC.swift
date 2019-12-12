@@ -23,7 +23,7 @@ class ActivityIndicatorVC: UIViewController {
         super.viewDidLoad()
         
         let circleStrokeSpin = presentingIndicatorTypes.first
-        let size:CGFloat = 100
+        let size:CGFloat = 140
         let screenWidth = self.view.frame.size.width
         let screenHeight = self.view.frame.size.height
 
@@ -33,7 +33,7 @@ class ActivityIndicatorVC: UIViewController {
         activityIndicatorView!.padding = 20
         self.view.addSubview(activityIndicatorView!)
         self.view.addSubview(activityIndicatorView!)
-        activityIndicatorView!.color = .green
+        activityIndicatorView!.color = .blue
         
     }
     
@@ -47,5 +47,20 @@ class ActivityIndicatorVC: UIViewController {
     
     @IBAction func btnStop(_ sender: Any) {
         activityIndicatorView!.stopAnimating()
+    }
+    
+    @IBAction func btnChangePassword(_ sender: Any) {
+        let contactVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContactUsVC") as! ContactUsVC
+        navigationController?.pushViewController(contactVC, animated: true)
+    }
+    @IBAction func btnChangeLoginId(_ sender: Any) {
+//        let helpVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HelpVC") as! HelpVC
+//        navigationController?.pushViewController(helpVC, animated: true)
+    }
+    @IBAction func btnChangeRegisterMobileNumber(_ sender: Any) {
+        
+    }
+    @IBAction func btnchangeRegisterEmail(_ sender: Any) {
+        
     }
 }

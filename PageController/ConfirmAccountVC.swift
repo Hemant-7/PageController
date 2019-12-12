@@ -65,14 +65,18 @@ class ConfirmAccountVC: UIViewController,UITextFieldDelegate{
     }
     
     @IBAction func btnChangeMobileClick(_ sender: Any) {
-        let changeEmail = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChangeMobileVC") as! ChangeMobileVC
-        self.navigationController?.pushViewController(changeEmail, animated: true)
+        let changeMobileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChangeMobileVC") as! ChangeMobileVC
+        self.navigationController?.pushViewController(changeMobileVC, animated: true)
     }
     
     @IBAction func btnResendCodeClick(_ sender: Any) {
+        let dropDownVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DropDownVC") as! DropDownVC
+        self.navigationController?.pushViewController(dropDownVC, animated: true)
     }
     
     @IBAction func btnSubmitClick(_ sender: Any) {
+        let vc  = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyAccountVC") as! MyAccountVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     func textFieldDidBeginEditing(_ textField: UITextField) {
 

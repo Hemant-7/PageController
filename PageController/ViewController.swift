@@ -21,13 +21,13 @@ class ViewController: UIViewController,UIScrollViewDelegate {
                        ( "View Profile")]
     
     
-    let arrOfFirstSlidePoint = [("Smant, beautiful business card, no paper!"),
+    let arrOfFirstSlidePoint = [("Smart, beautiful business cards, no paper!"),
                       ("Custom design. You Are unique, so is your business card"),
                       ("Your contact information never gets stale"),
                       ("All your contacts automatically get your updated information")]
-    let arrOfSecondSlidePoint = [("For easyway to share your smart business card"),("Email,SMS,Zoroko Id or simple Flick It!")]
+    let arrOfSecondSlidePoint = [("Four easy ways to share your smart business card"),("Email,SMS,Zoroko Id or simply Flick It!")]
     
-    let arrOfThirdSlidePoint = [("Organize your contact in Pockets"),("Card of Family,Friends and Colleagues organized by Pockets"),("Create new Pocket for different contacts")]
+    let arrOfThirdSlidePoint = [("Organize your contacts in Pockets"),("Cards of Family,Friends and Colleagues organized by Pockets"),("Create new Pockets for different contacts")]
     
     let arrOfFourthSlidePoint = [("Never forget who's business card you have"),("Share details about yourself with your contacts"),("Full Privacy! Granular control over who sees which information in your profile")]
     

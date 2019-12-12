@@ -12,6 +12,7 @@ class ChangeMobileVC: UIViewController {
 
     @IBOutlet var viewNavigation: UIView!
     @IBOutlet var btnBack: UIButton!
+    @IBOutlet var lblTitle: UILabel!
     
     @IBOutlet var txtSelectCurrentCountryCode: UITextField!
     @IBOutlet var txtCurrentMobile: UITextField!

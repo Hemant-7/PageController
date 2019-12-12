@@ -18,6 +18,7 @@ class ChangeEmailVC: UIViewController {
     @IBOutlet var btnCancel: UIButton!
     @IBOutlet var btnSubmit: UIButton!
     @IBOutlet var btnShowPassword: UIButton!
+    @IBOutlet var lblTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
