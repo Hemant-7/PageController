@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import MaterialComponents.MaterialActivityIndicator
 import NVActivityIndicatorView
+
+//https://github.com/ninjaprox/NVActivityIndicatorView for indicator
 
 class ActivityIndicatorVC: UIViewController {
     
