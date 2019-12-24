@@ -75,8 +75,8 @@ class ConfirmAccountVC: UIViewController,UITextFieldDelegate{
     }
     
     @IBAction func btnSubmitClick(_ sender: Any) {
-        let vc  = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyAccountVC") as! MyAccountVC
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc  = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MyAccountVC") as! MyAccountVC
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
     func textFieldDidBeginEditing(_ textField: UITextField) {
 

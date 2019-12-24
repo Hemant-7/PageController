@@ -59,9 +59,11 @@ class ActivityIndicatorVC: UIViewController {
 //        navigationController?.pushViewController(helpVC, animated: true)
     }
     @IBAction func btnChangeRegisterMobileNumber(_ sender: Any) {
-        
+        let newVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NewCardIntroVC") as! NewCardIntroVC
+               navigationController?.pushViewController(newVC, animated: true)
     }
     @IBAction func btnchangeRegisterEmail(_ sender: Any) {
-        
+        let swapIntroVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SwapIntroVC") as! SwapIntroVC
+        navigationController?.pushViewController(swapIntroVC, animated: true)
     }
 }

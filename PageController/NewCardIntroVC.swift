@@ -1,52 +1,49 @@
 //
-//  ViewController.swift
+//  NewCardIntroVC.swift
 //  PageController
 //
-//  Created by mac on 9/12/19.
-//  Copyright © 2019 ARD Tech pvt. ltd. All rights reserved.
+//  Created by Brain Tech on 03/10/1941 Saka.
+//  Copyright © 1941 ARD Tech pvt. ltd. All rights reserved.
 //
 
 import UIKit
-import CHIPageControl
 
-class ViewController: UIViewController,UIScrollViewDelegate {
-    
+class NewCardIntroVC: UIViewController,UIScrollViewDelegate {
+
     var slides:[Slide] = []
-    var slide:[Slide] = []
-    
-    let images = [UIImage(named: "ic_cards"), UIImage(named: "ic_forward_bg"), UIImage(named: "ic_pockets_bg"),
-                  UIImage(named: "ic_profile_bg")]
-    
-    let lbltitleArr = [( "Smart Business Card"),( "It's Easy to share"),( "Pockets"),
-                       ( "View Profile")]
-    
-    
-    let arrOfFirstSlidePoint = [("Smart, beautiful business cards, no paper!"),
-                      ("Custom design. You Are unique, so is your business card"),
-                      ("Your contact information never gets stale"),
-                      ("All your contacts automatically get your updated information")]
-    let arrOfSecondSlidePoint = [("Four easy ways to share your smart business card"),("Email,SMS,Zoroko Id or simply Flick It!")]
-    
-    let arrOfThirdSlidePoint = [("Organize your contacts in Pockets"),("Cards of Family,Friends and Colleagues organized by Pockets"),("Create new Pockets for different contacts")]
-    
-    let arrOfFourthSlidePoint = [("Never forget who's business card you have"),("Share details about yourself with your contacts"),("Full Privacy! Granular control over who sees which information in your profile")]
+       var slide:[Slide] = []
+       
+       let images = [UIImage(named: "ic_select_card"), UIImage(named: "ic_card_content"), UIImage(named: "ic_pic_photo"),
+                     UIImage(named: "ic_final_card")]
+       
+       let lbltitleArr = [( "Pick a Design"),( "Pick Content From Profile"),( "Add a picture or Logo"),( "Preview Your New Card And Confirm")]
+       
+       
+       let arrOfFirstSlidePoint = [("Pick a design that suits your taste"),
+                         ("Click on the design to see template details"),
+                         ("Your contact information never gets stale"),
+                         ("Length of name, count of phone numbers, count of emails etc.")]
+       let arrOfSecondSlidePoint = [("Ensure your profile is complete"),("Pick Name: First, Middle, Last name"),("Pick Connect: Phones, Emails, Socials,URLs"),("Pick a job School for the card")]
+       
+       let arrOfThirdSlidePoint = [("Pick from an image you may have uploaded to Menu -> MyPicture"),("Or simply upload a new image"),("Select an image to be shown an your card")]
+       
+       let arrOfFourthSlidePoint = [("Check out the card preview"),("To make changes, simply go back"),("One sure, just Confirm!")]
     
     @IBOutlet var pageControl: UIPageControl!
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var btnSkip: UIButton!
     
-    
     override func viewDidLoad() {
-        super.viewDidLoad()
         
+        super.viewDidLoad()
         scrollView.delegate = self
         scrollView.isPagingEnabled = true
         scrollView.isDirectionalLockEnabled = true
         slides = createSlides()
         setupSlideScrollView(slides: slides)
         configurePageControl()
-        
     }
+    
     func configurePageControl() {
         // The total number of pages that are available is based on how many available colors we have.
         self.pageControl.numberOfPages = slides.count
@@ -64,15 +61,15 @@ class ViewController: UIViewController,UIScrollViewDelegate {
                 slide1.lblFirstPoint.text = arrOfFirstSlidePoint[0]
                 slide1.lblSecondPoint.text = arrOfFirstSlidePoint[1]
                 slide1.lblThirdPoint.text = arrOfFirstSlidePoint[2]
-                slide1.lblForthPoint.text = arrOfFirstSlidePoint[3]
+                slide1.viewFourth.isHidden = true
         
                 let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: Slide.self, options: nil)?.first as! Slide
                 slide2.imgView.image = images[1]
                 slide2.lblTitle.text = lbltitleArr[1]
                 slide2.lblFirstPoint.text = arrOfSecondSlidePoint[0]
                 slide2.lblSecondPoint.text = arrOfSecondSlidePoint[1]
-                slide2.viewthird.isHidden = true
-                slide2.viewFourth.isHidden = true
+                slide2.lblThirdPoint.text = arrOfSecondSlidePoint[2]
+                slide2.lblForthPoint.text = arrOfSecondSlidePoint[3]
         
                 let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: Slide.self, options: nil)?.first as! Slide
                 slide3.imgView.image = images[2]
@@ -104,7 +101,6 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         }
     }
     
-    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
         pageControl.currentPage = Int(pageIndex)
@@ -113,9 +109,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         }
     }
     
-    @IBAction func btnSkipClick(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ConfirmAccountVC") as! ConfirmAccountVC
-        self.navigationController?.pushViewController(vc, animated: true)
+    @IBAction func btnSkip(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
     }
 }
-
