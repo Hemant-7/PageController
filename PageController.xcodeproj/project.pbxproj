@@ -35,8 +35,14 @@
 		B5DE9D0A23977D75004168BC /* ConfirmAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0923977D75004168BC /* ConfirmAccountVC.swift */; };
 		B5DE9D0C2397AF5F004168BC /* ChangeEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0B2397AF5F004168BC /* ChangeEmailVC.swift */; };
 		B5DE9D0E2397D17A004168BC /* ChangeMobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE9D0D2397D17A004168BC /* ChangeMobileVC.swift */; };
+		C71F065D23B53E3F0028DC3B /* PickCardToSendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F065C23B53E3F0028DC3B /* PickCardToSendVC.swift */; };
+		C71F066423B556360028DC3B /* CellSelectCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F066223B556360028DC3B /* CellSelectCardVC.swift */; };
+		C71F066523B556360028DC3B /* CellSelectCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71F066323B556360028DC3B /* CellSelectCardVC.xib */; };
+		C71F066723B5586F0028DC3B /* SelectCardTblVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F066623B5586F0028DC3B /* SelectCardTblVC.swift */; };
 		C789DA6723B2A6FF00BB5FCA /* NewCardIntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789DA6623B2A6FF00BB5FCA /* NewCardIntroVC.swift */; };
 		C789DA6923B2B50800BB5FCA /* SwapIntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789DA6823B2B50800BB5FCA /* SwapIntroVC.swift */; };
+		C789DA6B23B2DB0A00BB5FCA /* WebKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789DA6A23B2DB0A00BB5FCA /* WebKitVC.swift */; };
+		C789DA6D23B2E96900BB5FCA /* CellWebKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789DA6C23B2E96900BB5FCA /* CellWebKitContainer.swift */; };
 		D812074D8E34283D49C4232F /* Pods_PageControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F30E41FCCE1A8FA21A3143 /* Pods_PageControllerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,8 +105,14 @@
 		B5DE9D0B2397AF5F004168BC /* ChangeEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailVC.swift; sourceTree = "<group>"; };
 		B5DE9D0D2397D17A004168BC /* ChangeMobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMobileVC.swift; sourceTree = "<group>"; };
 		C09E55AF0A57F54647606B8B /* Pods-PageControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageControllerTests.release.xcconfig"; path = "Target Support Files/Pods-PageControllerTests/Pods-PageControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C71F065C23B53E3F0028DC3B /* PickCardToSendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardToSendVC.swift; sourceTree = "<group>"; };
+		C71F066223B556360028DC3B /* CellSelectCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectCardVC.swift; sourceTree = "<group>"; };
+		C71F066323B556360028DC3B /* CellSelectCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellSelectCardVC.xib; sourceTree = "<group>"; };
+		C71F066623B5586F0028DC3B /* SelectCardTblVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCardTblVC.swift; sourceTree = "<group>"; };
 		C789DA6623B2A6FF00BB5FCA /* NewCardIntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardIntroVC.swift; sourceTree = "<group>"; };
 		C789DA6823B2B50800BB5FCA /* SwapIntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapIntroVC.swift; sourceTree = "<group>"; };
+		C789DA6A23B2DB0A00BB5FCA /* WebKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitVC.swift; sourceTree = "<group>"; };
+		C789DA6C23B2E96900BB5FCA /* CellWebKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWebKitContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +208,12 @@
 				B5CCF13A23A275B800B143A7 /* HelpVC.swift */,
 				C789DA6623B2A6FF00BB5FCA /* NewCardIntroVC.swift */,
 				C789DA6823B2B50800BB5FCA /* SwapIntroVC.swift */,
+				C789DA6A23B2DB0A00BB5FCA /* WebKitVC.swift */,
+				C789DA6C23B2E96900BB5FCA /* CellWebKitContainer.swift */,
+				C71F065C23B53E3F0028DC3B /* PickCardToSendVC.swift */,
+				C71F066223B556360028DC3B /* CellSelectCardVC.swift */,
+				C71F066323B556360028DC3B /* CellSelectCardVC.xib */,
+				C71F066623B5586F0028DC3B /* SelectCardTblVC.swift */,
 			);
 			path = PageController;
 			sourceTree = "<group>";
@@ -336,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71F066523B556360028DC3B /* CellSelectCardVC.xib in Resources */,
 				B5B068D1232A33110059A8A1 /* LaunchScreen.storyboard in Resources */,
 				B5B068CE232A33110059A8A1 /* Assets.xcassets in Resources */,
 				B5B068CC232A330E0059A8A1 /* Main.storyboard in Resources */,
@@ -459,9 +478,14 @@
 				B5DE9D0A23977D75004168BC /* ConfirmAccountVC.swift in Sources */,
 				B5CD17B323A0C89C000A5AEB /* ChangeRegisteredMobileVC.swift in Sources */,
 				B5CD17B123A0C85E000A5AEB /* ChangeLoginIdVC.swift in Sources */,
+				C71F065D23B53E3F0028DC3B /* PickCardToSendVC.swift in Sources */,
+				C789DA6B23B2DB0A00BB5FCA /* WebKitVC.swift in Sources */,
 				B5CCF13723A23F9D00B143A7 /* FeedbackVC.swift in Sources */,
 				B5CD17BD23A11021000A5AEB /* NameList.swift in Sources */,
+				C71F066423B556360028DC3B /* CellSelectCardVC.swift in Sources */,
 				C789DA6923B2B50800BB5FCA /* SwapIntroVC.swift in Sources */,
+				C789DA6D23B2E96900BB5FCA /* CellWebKitContainer.swift in Sources */,
+				C71F066723B5586F0028DC3B /* SelectCardTblVC.swift in Sources */,
 				B5CD17B523A0C8BC000A5AEB /* ChangeRegisteredEmailVC.swift in Sources */,
 				B5DE9D0C2397AF5F004168BC /* ChangeEmailVC.swift in Sources */,
 				B5CCF13523A2137A00B143A7 /* ConnectRequestVC.swift in Sources */,

@@ -26,7 +26,7 @@ class DropDownVC: UIViewController,UITableViewDelegate,UITableViewDataSource{
         viewNavigation.layer.shadowOffset = CGSize(width: 1, height: 1)
         viewNavigation.layer.shadowOpacity = 1.0
         
-        btnDropDown.layer.borderWidth = 1
+        btnDropDown.layer.borderWidth = 0.5
         btnDropDown.layer.borderColor = UIColor.black.cgColor
         btnDropDown.layer.cornerRadius = 2
         btnDropDown.layer.shadowColor = UIColor.gray.cgColor

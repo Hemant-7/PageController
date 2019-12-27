@@ -55,8 +55,9 @@ class ActivityIndicatorVC: UIViewController {
         navigationController?.pushViewController(contactVC, animated: true)
     }
     @IBAction func btnChangeLoginId(_ sender: Any) {
-//        let helpVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HelpVC") as! HelpVC
-//        navigationController?.pushViewController(helpVC, animated: true)
+        let webKitVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "WebKitVC") as! WebKitVC
+        navigationController?.pushViewController(webKitVC, animated: true)
+
     }
     @IBAction func btnChangeRegisterMobileNumber(_ sender: Any) {
         let newVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NewCardIntroVC") as! NewCardIntroVC

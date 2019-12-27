@@ -60,5 +60,9 @@ class SwapIntroVC: UIViewController {
     }
     @IBAction func btnContinue(_ sender: UIButton) {
         
+        if let pickCardToSendVC = self.storyboard?.instantiateViewController(withIdentifier: "PickCardToSendVC") as? PickCardToSendVC {
+            self.present(pickCardToSendVC, animated: true, completion: nil)
+
+        }
     }
 }
