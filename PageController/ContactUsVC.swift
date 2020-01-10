@@ -43,6 +43,7 @@ class ContactUsVC: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     @IBAction func btnSend(_ sender: Any) {
-        
+        let foundVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FoundMultiMatchesVC") as! FoundMultiMatchesVC
+        navigationController?.pushViewController(foundVC, animated: true)
     }
 }
